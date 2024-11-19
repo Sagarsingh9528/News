@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   /* background-color: black; */
+   background-color: #222831;
+   overflow-x: hidden;
+}
+.news{
+    margin-left: 15rem;
+    /* margin-top: 1rem; */
+    justify-content: space-between;
+}
+.nav{
+    color: #EEEEEE;
+    text-align: center;
+    /* margin-top: 1rem; */
+}
+/* .nav{
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; */
+    /* top: 0px; */
+    /* padding: 10px 20px; */
+    /* margin-left: 60rem; */
+    /* background-color: #ffd700; */
+    /* margin-top: 1rem; */
+/* }
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 20px;
+} */
+
+
+
+/* .nav-list li a {
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 28px;
+    transition: color 0.3s ease-in-out;
+    z-index: 0;
+    cursor: pointer;
+    position: relative;
+
+} */
+/* .nav-list li a::before{
+    top: 0px;
+    transform: translateY(20px);
+
+}
+
+.nav-list li a::after{
+    top: 0px;
+    transform: translateY(20px);
+
+}
+.nav-list li a:hover::before,
+.nav-list li a:hover::after{ */
+    /* top: 0px;
+    transform: translateY(0px);
+
+}
+
+.nav-list li a:hover {
+    color: #00ADB5; */
+    /* Change the color on hover */
+/* } */
+
+
+/* .movie-box{
+    margin-top: 100rem;
+} */
+/* .nav {
+    height: 1vh;
+} */
+#country{
+    height: 2.25rem;
+    border-radius: 0.5rem;
+    background-color: rgb(170, 243, 243);
+    margin-left: 2rem;
+}
+.articl{
+    display: flex;
+    flex-direction: row;
+    background-color: #454647;
+    margin-top: 2rem;
+    /* background-color: #00ADB5; */
+
+}
+
+.News{
+    background-color: #636262;
+    width: 35rem;
+    height: 20rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+.box{
+    color: #EEEEEE;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+/* .title{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+} */
+.view{
+    color: #EEEEEE;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.description{
+    /* margin-left: 5rem; */
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+.line{
+    margin-top: 1rem;
+    /* width: 30rem; */
+    /* margin-left: 6rem; */
+    border: 3px solid red;
+    /* border-radius: 1rem; */
+    /* border: none; */
+    /* height: 2rem; */
+}
+.content{
+    margin-top: 1rem;
+}
+.date{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.author{
+    /* margin-left: 15rem; */
+    /* justify-content: flex-end; */
+    float: right;
+    margin-right: 2rem;
+
+}
