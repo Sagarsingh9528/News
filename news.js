@@ -8,6 +8,7 @@ let name = document.getElementById("country");
 // console.log(country);
 let category = document.getElementById("category");
 // console.log(category);
+// let source = document.getElementById("source");
 let btn = document.getElementById("btn");
 // console.log(btn);
 
@@ -16,7 +17,9 @@ btn.addEventListener("click", async (evt) => {
     let newName = name.value;
     let stringName = String(newName); 
     let search1 = search.value;
-    const URL = `${BASE_URL}&country=${stringName.toLowerCase()}&q=${search1}`;
+    let category1 = category.value;
+    // let source1 = source.value;
+    const URL = `${BASE_URL}&country=${stringName.toLowerCase()}&q=${search1}&category=${category1}`;
     // console.log(URL);
     let response = await fetch(URL);
     let  data = await response.json();
